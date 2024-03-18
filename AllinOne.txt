@@ -1,0 +1,32 @@
+{
+    "urls": [		
+        {
+            "url": "https://topchip.github.io/Sexlive.txt",
+            "name": "Sexlive"
+        },          
+        {
+            "url": "https://topchip.github.io/AdultIPTV.txt",
+            "name": "AdultIPTV"
+        },  
+        {
+            "url": "https://topchip.github.io/adultiptvideo.txt",
+            "name": "adultiptvideo"
+        },		
+        {
+            "url": "https://topchip.github.io/Sex-YanG.txt",
+            "name": "Sex-YanG"
+        },                    
+        {
+            "url": "https://topchip.github.io/Sex-QQZB.txt",
+            "name": "Sex-QQZB"
+        }, 	
+        {
+            "url": "https://topchip.github.io/Sex-A.txt",
+            "name": "Sex-A"
+        },				
+        {
+            "url":"https://topchip.github.io/Sex-Tom.txt",
+            "name": "Sex-Tom"
+        }		
+    ]
+}
