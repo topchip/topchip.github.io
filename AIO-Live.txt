@@ -3,11 +3,7 @@
         {
             "url": "http://jiami.guimei.work/a/1710614658.txt",
             "name": "港台"
-        },
-        {
-            "url": "https://topchip.github.io/央视频.txt",
-            "name": "央视频"
-        },        
+        },  
         {
             "url": "https://raw.githubusercontent.com/Slive8/iTV/main/Slive.m3u",
             "name": "央卫体"
