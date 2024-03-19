@@ -11,7 +11,31 @@
         {
             "url": "https://topchip.github.io/adultiptvideo.txt",
             "name": "adultiptvideo"
-        },	
+        },
+        {
+            "url": "https://jackson0829.github.io/AV.txt",
+            "name": "AV"
+        },
+        {
+            "url": "https://jackson0829.github.io/AV2.txt",
+            "name": "AV2"
+        },
+        {
+            "url": "https://jackson0829.github.io/AV3.txt",
+            "name": "AV3"
+        },
+        {
+            "url": "https://jackson0829.github.io/AV4.txt",
+            "name": "AV4"
+        },
+        {
+            "url": "https://jackson0829.github.io/AV5.txt",
+            "name": "AV5"
+        },
+        {
+            "url": "https://jackson0829.github.io/AV6.txt",
+            "name": "AV6"
+        },
         {
             "url": "https://topchip.github.io/Sex-YanG.txt",
             "name": "Sex-YanG"
