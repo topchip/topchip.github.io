@@ -5,10 +5,6 @@
             "name": "港台"
         },
         {
-            "url": "https://topchip.github.io/央視頻.txt",
-            "name": "央視頻"
-        }, 
-        {
             "url": "https://raw.githubusercontent.com/Slive8/iTV/main/Slive.m3u",
             "name": "央卫体"
         },
