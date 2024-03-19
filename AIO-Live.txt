@@ -58,6 +58,3 @@
         }	
     ]
 }
-
-
-https://ghproxy.com/https://raw.githubusercontent.com/m3u8playlist/dp/master/iplayr/%E4%B8%8D%E8%89%AF%E4%BA%BA.txt
