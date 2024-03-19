@@ -1,0 +1,55 @@
+{
+    "urls": [		
+        {
+            "url": "https://topchip.github.io/Sexlive.txt",
+            "name": "Sexlive"
+        },      
+        {
+            "url": "https://topchip.github.io/AdultIPTV.txt",
+            "name": "AdultIPTV"
+        }, 
+        {
+            "url": "https://topchip.github.io/adultiptvideo.txt",
+            "name": "adultiptvideo"
+        },	
+        {
+            "url": "https://topchip.github.io/Sex-YanG.txt",
+            "name": "Sex-YanG"
+        },           
+        {
+            "url": "https://topchip.github.io/Sex-QQZB.txt",
+            "name": "Sex-QQZB"
+        },
+        {
+            "url": "https://topchip.github.io/Sex-A.txt",
+            "name": "Sex-A"
+        },
+        {
+            "url": "https://topchip.github.io/Sex-B.txt",
+            "name": "Sex-B"
+        },
+        {
+            "url": "https://topchip.github.io/Sex-C.txt",
+            "name": "Sex-C"
+        },
+        {
+            "url": "https://topchip.github.io/Sex-D.txt",
+            "name": "Sex-D"
+        },
+        {
+            "url": "https://topchip.github.io/Sex-CN.txt",
+            "name": "Sex-CN"
+        },
+        {
+            "url": "https://raw.gitmirror.com/wwb521/live/main/fl.txt",
+            "name": "扶大爷"
+        },							
+        {
+            "url":"https://topchip.github.io/Sex-Tom.txt",
+            "name": "Sex-Tom"
+        }	
+    ]
+}
+
+
+https://ghproxy.com/https://raw.githubusercontent.com/m3u8playlist/dp/master/iplayr/%E4%B8%8D%E8%89%AF%E4%BA%BA.txt

@@ -1,0 +1,63 @@
+{
+    "urls": [		
+        {
+            "url": "http://jiami.guimei.work/a/1710614658.txt",
+            "name": "港台"
+        },           
+        {
+            "url": "https://raw.githubusercontent.com/Slive8/iTV/main/Slive.m3u",
+            "name": "央卫体"
+        },
+        {
+            "url": "https://xhdwc.tk/tvlive.txt",
+            "name": "央卫"
+        },
+        {
+            "url": "https://raw.gitmirror.com/wwb521/live/main/fl.txt",
+            "name": "扶大爷"
+        },      
+        {
+            "url": "https://topchip.github.io/Live-Meilin.txt",
+            "name": "Live-Meilin"
+        }, 
+        {
+            "url": "https://topchip.github.io/糖豆广场舞.txt",
+            "name": "广场舞"
+        },	
+        {
+            "url": "https://topchip.github.io/国内.txt",
+            "name": "国内"
+        },
+        {
+            "url": "https://topchip.github.io/电视家.txt",
+            "name": "电视家"
+        },
+        {
+            "url": "https://gitcode.net/ygbh66/test/-/raw/master/bhzb.txt",
+            "name": "宝盒迷"
+        },
+        {
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "name": "范明明"
+        },
+        {
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+            "name": "肥羊"
+        },
+        {
+            "url": "https://jihulab.com/owen2000wy/owentv/-/raw/main/HP20230319.m3u",
+            "name": "Owen"
+        },
+        {
+            "url": "http://127.0.0.1:9978/proxy?do=live&type=txt&ext=aHR0cHM6Ly9kLmtzdG9yZS5zcGFjZS9kb3dubG9hZC8yODgzLzIwMjQwMjEwLnR4dA==",
+            "name": "D佬"
+        },							
+        {
+            "url":"https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u",
+            "name": "Ray"
+        }	
+    ]
+}
+
+
+https://ghproxy.com/https://raw.githubusercontent.com/m3u8playlist/dp/master/iplayr/%E4%B8%8D%E8%89%AF%E4%BA%BA.txt
