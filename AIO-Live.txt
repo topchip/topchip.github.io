@@ -1,8 +1,20 @@
 {
     "urls": [		
         {
+            "url": "https://www.stream-link.org/stream-link.m3u",
+            "name": "港台F"
+        },
+        {
             "url": "http://jiami.guimei.work/a/1710614658.txt",
             "name": "港台"
+        },
+        {
+            "url": "https://assets.livednow.com/m3u/mytvsuper.m3u",
+            "name": "港澳台F"
+        },
+        {
+            "url": "https://pan.shangui.cc/f/nMaQH2/mytvsuper-free.m3u",
+            "name": "香港F"
         },
         {
             "url": "https://raw.githubusercontent.com/Slive8/iTV/main/Slive.m3u",
