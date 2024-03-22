@@ -17,6 +17,10 @@
             "name": "香港F"
         },
         {
+            "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+            "name": "YueChan"
+        },
+        {
             "url": "https://raw.githubusercontent.com/Slive8/iTV/main/Slive.m3u",
             "name": "央卫体"
         },

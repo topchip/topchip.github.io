@@ -5,6 +5,7 @@
 {"name":"🍊┃湯┃影視(PG)","url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/alantang1977/X/master/PG.json"},
 {"name":"🐄┃湯┃影視(one)","url":"https://agit.ai/alanchaotang/if/raw/branch/main/jsm.json"},
 {"name":"二小","url":"http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/index.php"},
+{"name":"白嫖","url":"https://123.155123.xyz/baipiao.json"},
 {"name":"七米蓝","url":"http://xn--6orp08a.4tvbox.v6.navy/%E4%B8%83%E7%B1%B3%E8%93%9D.json"},
 {"name":"⛩️┃湯┃本地(PG)","url":"file://pg/jsm.json"},  
 {"name":"🍙┃湯┃饭太硬","url":"http://饭太硬.top/tv"}, 
