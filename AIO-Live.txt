@@ -33,21 +33,9 @@
             "name": "iptv520"
         },
         {
-            "url": "https://topchip.github.io/Live-Meilin.txt",
-            "name": "Live-Meilin"
-        }, 
-        {
             "url": "https://topchip.github.io/糖豆广场舞.txt",
             "name": "广场舞"
         },	
-        {
-            "url": "https://topchip.github.io/国内.txt",
-            "name": "国内"
-        },
-        {
-            "url": "https://topchip.github.io/电视家.txt",
-            "name": "电视家"
-        },
         {
             "url": "https://gitcode.net/ygbh66/test/-/raw/master/bhzb.txt",
             "name": "宝盒迷"
