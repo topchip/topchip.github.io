@@ -5,25 +5,9 @@
             "name": "糖意"
         },      
         {
-            "url": "https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u",
-            "name": "YanG"
-        }, 
-        {
-            "url": "https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u",
-            "name": "atsushi"
-        },
-        {
             "url": "https://qu.ax/PEHy.txt",
             "name": "小武哥"
         },
-        {
-            "url": "https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u",
-            "name": "直播"
-        },
-        {
-            "url": "https://topchip.github.io/Sexlive.txt",
-            "name": "Sexlive"
-        },      
         {
             "url": "https://topchip.github.io/AdultIPTV.txt",
             "name": "AdultIPTV"
@@ -55,30 +39,10 @@
         {
             "url": "https://jackson0829.github.io/AV6.txt",
             "name": "AV6"
-        },
-        {
-            "url": "https://topchip.github.io/Sex-YanG.txt",
-            "name": "Sex-YanG"
-        },           
+        },        
         {
             "url": "https://topchip.github.io/Sex-QQZB.txt",
             "name": "Sex-QQZB"
-        },
-        {
-            "url": "https://topchip.github.io/Sex-A.txt",
-            "name": "Sex-A"
-        },
-        {
-            "url": "https://topchip.github.io/Sex-B.txt",
-            "name": "Sex-B"
-        },
-        {
-            "url": "https://topchip.github.io/Sex-C.txt",
-            "name": "Sex-C"
-        },
-        {
-            "url": "https://topchip.github.io/Sex-D.txt",
-            "name": "Sex-D"
         },
         {
             "url": "https://topchip.github.io/Sex-CN.txt",
