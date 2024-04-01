@@ -7,7 +7,6 @@
 {"name":"Ok内部","url":"http://ok321.top/tv"},
 {"name":"Ok公开","url":"http://ok321.top/ok"},
 {"name":"二小","url":"http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/index.php"},
-{"name":"白嫖","url":"https://123.155123.xyz/baipiao.json"},
 {"name":"小米","url":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/XBPQ.json"},
 {"name":"蜂蜜","url":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json"},
 {"name":"小而精","url":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json"},
