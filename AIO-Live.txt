@@ -29,6 +29,14 @@
             "name": "香港F"
         },
         {
+            "url": "https://盒子迷.top/春盈天下",
+            "name": "春盈天下"
+        }, 
+        {
+            "url": "https://tang.serv00.net/zb/99?token=2b4ca66f",
+            "name": "唐三F"
+        },  
+        {
             "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
             "name": "YueChan"
         },
