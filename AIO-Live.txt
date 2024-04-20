@@ -4,7 +4,20 @@
             "url": "https://www.stream-link.org/stream-link.m3u",
             "name": "港台F"
         },
-        {
+ {
+            "url": "https://epg.pw/test_channels_taiwan.txt",
+            "name": "台湾F"
+        },
+ {
+            "url": "https://epg.pw/test_channels_hong_kong.txt",
+            "name": "香港F"
+        },
+
+ {
+            "url": "https://epg.pw/test_channels_macau.txt",
+            "name": "澳门F"
+        },   
+     {
             "url": "http://jiami.guimei.work/a/1710614658.txt",
             "name": "港台"
         },
