@@ -5,6 +5,10 @@
             "name": "港台F"
         },
         {
+            "url": "https://tang.serv00.net/zb/99?token=2b4ca66f",
+            "name": "唐三F"
+        },  
+        {
             "url": "https://epg.pw/test_channels_taiwan.txt",
             "name": "台湾F"
         },
@@ -31,10 +35,30 @@
         {
             "url": "https://盒子迷.top/春盈天下",
             "name": "春盈天下"
+        },     
+        {
+            "url": "https://epg.pw/test_channels_china.m3u",
+            "name": "大陆"
+        },  
+        {
+            "url": "https://epg.pw/test_channels_movies.m3u",
+            "name": "电影"
+        },  
+        {
+            "url": "https://epg.pw/test_channels_sports.m3u",
+            "name": "体育"
         }, 
         {
-            "url": "https://tang.serv00.net/zb/99?token=2b4ca66f",
-            "name": "唐三F"
+            "url": "https://epg.pw/test_channels_news.m3u",
+            "name": "新闻"
+        },  
+        {
+            "url": "https://epg.pw/test_channels_kids.m3u",
+            "name": "儿童"
+        }, 
+        {
+            "url": "https://epg.pw/test_channels_music.m3u",
+            "name": "音乐"
         },  
         {
             "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
