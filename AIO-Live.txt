@@ -39,7 +39,11 @@
         {
             "url": "https://epg.pw/test_channels_china.m3u",
             "name": "大陆"
-        },  
+        }, 
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+            "name": "酒店源"
+        }, 
         {
             "url": "https://epg.pw/test_channels_movies.m3u",
             "name": "电影"
