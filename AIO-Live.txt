@@ -83,11 +83,7 @@
         {
             "url": "https://topchip.github.io/糖豆广场舞.txt",
             "name": "广场舞"
-        },
-        {
-            "url": "https://topchip.github.io/央视频.m3u",
-            "name": "央视频"
-        },	
+        }, 
         {
             "url": "https://gitcode.net/ygbh66/test/-/raw/master/bhzb.txt",
             "name": "宝盒迷"
