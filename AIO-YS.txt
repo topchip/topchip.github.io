@@ -8,6 +8,7 @@
 {"name":"小米","url":"http://xhww.fun:63/小米/DEMO.json"},
 {"name":"蜂蜜","url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json"},
 {"name":"PizazzGY","url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json"},
+{"name":"AI自留地","url":"https://cdn.jsdelivr.net/gh/hl128k/tvbox@main/tv/0/franksun1211_0706.json"},
 {"name":"小而精","url":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json"},
 {"name":"大而全","url":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/0821.json"},
 {"name":"七米蓝","url":"http://xn--6orp08a.4tvbox.v6.navy/%E4%B8%83%E7%B1%B3%E8%93%9D.json"},
