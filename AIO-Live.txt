@@ -9,6 +9,10 @@
             "name": "唐三F"
         },  
         {
+            "url": "https://gitee.com/linjun1001/iptv/raw/main/%E6%B8%AF%E5%8F%B0%E6%B5%8B%E8%AF%95",
+            "name": "AI自留地"
+        },  
+        {
             "url": "https://epg.pw/test_channels_taiwan.txt",
             "name": "台湾F"
         },
