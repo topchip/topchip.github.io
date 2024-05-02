@@ -6,11 +6,11 @@
         },
         {
             "url": "https://tang.serv00.net/zb/tv?type=169&token=2b4ca66f",
-            "name": "唐三169"
+            "name": "唐三焦点"
        },  
        {
             "url": "https://tang.serv00.net/zb/99?token=2b4ca66f",
-            "name": "唐三F"
+            "name": "唐三安博"
         },  
         {
             "url": "https://gitee.com/linjun1001/iptv/raw/main/%E6%B8%AF%E5%8F%B0%E6%B5%8B%E8%AF%95",
