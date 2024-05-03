@@ -7,7 +7,11 @@
         {
             "url": "https://yang-1989.eu.org/m3u/Adult-1",
             "name": "Yang-1989"
-        },         
+        },      
+        {
+            "url": "http://oy.oyxx-1.eu.org/p3p.php?r18=1",
+            "name": "全球直播"
+        },      
         {
             "url": "https://qu.ax/PEHy.txt",
             "name": "小武哥"
