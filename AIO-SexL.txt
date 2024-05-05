@@ -5,6 +5,10 @@
             "name": "糖意"
         }, 
         {
+            "url": "https://yang-1989.eu.org/m3u/Adult",
+            "name": "Yang1989"
+        },      
+        {
             "url": "https://yang-1989.eu.org/m3u/Adult-1",
             "name": "Yang-1989"
         },      
