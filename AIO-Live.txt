@@ -5,6 +5,10 @@
             "name": "港台F"
         },
         {
+            "url": "http://oy.oyxx-1.eu.org/p3p.php",
+            "name": "欧阳全球"
+        },
+        {
             "url": "https://tang.serv00.net/zb/tv?type=169&token=2b4ca66f",
             "name": "唐三焦点"
        },  
