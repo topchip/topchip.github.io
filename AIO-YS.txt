@@ -4,7 +4,7 @@
 {"name":"🍊┃湯┃影視(PG)","url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/alantang1977/X/master/PG.json"},
 {"name":"🐄┃湯┃影視(one)","url":"https://agit.ai/alanchaotang/if/raw/branch/main/jsm.json"},
 {"name":"Ok内部","url":"http://ok321.top/tv"},
-{"name":"二小","url":"http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/index.php"},
+{"name":"二小","url":"http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/"},
 {"name":"小米","url":"http://xhww.fun:63/小米/DEMO.json"},
 {"name":"蜂蜜","url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json"},
 {"name":"PizazzGY","url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json"},
