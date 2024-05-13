@@ -11,27 +11,11 @@
         {
             "url": "https://tang.hz.cz/zb/tv?type=169&token=2b4ca66f",
             "name": "唐三焦点"
-       },  
-       {
-            "url": "https://tang.hz.cz/zb/tv?type=99&token=2b4ca66f",
-            "name": "唐三安博"
         },  
         {
             "url": "https://topchip.github.io/Litv.txt",
             "name": "Litv"
         },   
-        {
-            "url": "https://benson.serv00.net/ysp.txt",
-            "name": "ysp"
-        },  
-        {
-            "url": "https://benson.serv00.net/Smartv.txt",
-            "name": "Smartv"
-        },  
-        {
-            "url": "https://benson.serv00.net/4gtv.txt",
-            "name": "4gtv"
-        },  
         {
             "url": "https://gitee.com/linjun1001/iptv/raw/main/%E6%B8%AF%E5%8F%B0%E6%B5%8B%E8%AF%95",
             "name": "AI自留地"
