@@ -5,6 +5,7 @@
 {"name":"🐄┃湯┃影視(one)","url":"https://agit.ai/alanchaotang/if/raw/branch/main/jsm.json"},
 {"name":"Ok内部","url":"http://ok321.top/tv"},
 {"name":"二小","url":"http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/"},
+{"name":"春盈","url":"https://盒子迷.top/春盈天下"},
 {"name":"PG在线","url":"http://cdn.kj4247.top/pg/jsm.json"},
 {"name":"侠客","url":"http://xktv6.icu/d"},
 {"name":"小米","url":"http://xhww.fun:63/小米/DEMO.json"},
