@@ -15,7 +15,7 @@
 {"name":"小而精","url":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json"},
 {"name":"大而全","url":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/0821.json"},
 {"name":"七米蓝","url":"http://xn--6orp08a.4tvbox.v6.navy/%E4%B8%83%E7%B1%B3%E8%93%9D.json"},
-{"name":"饭太硬","url":"http://饭太硬.top/com"}, 
+{"name":"饭太硬","url":"http://饭太硬.com/tv"}, 
 {"name":"🐸┃湯┃荷城茶秀","url":"http://rihou.cc:88/荷城茶秀"},
 {"name":"🚒┃湯┃运输车","url":"https://weixine.net/ysc.json"},
 {"name":"🚒┃湯┃Kooger","url":"https://hezi.tvboxhz.top/TVBOX盒子"},
