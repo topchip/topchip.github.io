@@ -1,4 +1,22 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="HR: HAJDUK TV" tvg-logo="" group-title="SPORT",HR: HAJDUK TV
+http://g-med.xyz:25461/live/Yves_domic@/EVRYEG4hDRwX/86981.ts
+#EXTINF:-1 tvg-id="" tvg-name="IQRE TV" tvg-logo="" group-title="BIH",IQRE TV
+http://g-med.xyz:25461/live/Yves_domic@/EVRYEG4hDRwX/87017.ts
+#EXTINF:-1 tvg-id="syfy.de" tvg-name="DE:SYFY  HD L2" tvg-logo="https://images.g-med.xyz:8443/images/Logo/germany/syfy.png" group-title="GERMANY",DE:SYFY  HD L2
+http://g-med.xyz:25461/live/Yves_domic@/EVRYEG4hDRwX/87189.ts
+#EXTINF:-1 tvg-id="" tvg-name="DK: TLC HD" tvg-logo="" group-title="DENMARK",DK: TLC HD
+http://g-med.xyz:25461/live/Yves_domic@/EVRYEG4hDRwX/89389.ts
+#EXTINF:-1 tvg-id="" tvg-name="DE: DYN SPORT 1 HD" tvg-logo="" group-title="SPORT",DE: DYN SPORT 1 HD
+http://g-med.xyz:25461/live/Yves_domic@/EVRYEG4hDRwX/91063.ts
+#EXTINF:-1 tvg-id="" tvg-name="DE: DYN SPORT 2 HD" tvg-logo="" group-title="SPORT",DE: DYN SPORT 2 HD
+http://g-med.xyz:25461/live/Yves_domic@/EVRYEG4hDRwX/91065.ts
+#EXTINF:-1 tvg-id="" tvg-name="DE: DYN SPORT 3 HD" tvg-logo="" group-title="SPORT",DE: DYN SPORT 3 HD
+http://g-med.xyz:25461/live/Yves_domic@/EVRYEG4hDRwX/91067.ts
+#EXTINF:-1 tvg-id="" tvg-name="DE: DYN SPORT 4 HD" tvg-logo="" group-title="SPORT",DE: DYN SPORT 4 HD
+http://g-med.xyz:25461/live/Yves_domic@/EVRYEG4hDRwX/91069.ts
+#EXTINF:-1 tvg-id="" tvg-name="DE: DYN SPORT 5 HD" tvg-logo="" group-title="SPORT",DE: DYN SPORT 5 HD
+http://g-med.xyz:25461/live/Yves_domic@/EVRYEG4hDRwX/91071.ts
 #EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-logo="https://i.imgur.com/zzeXXYF.png" group-title="体育 | 4K 超高清",天空体育主赛事超高清
 https://7pal.short.gy/SSMEuhd
 #EXTINF:-1 tvg-id="Astro.Sports.UHD.my" tvg-logo="https://i.imgur.com/3cW86E5.png" group-title="体育 | 4K 超高清",寰宇体育超高清
