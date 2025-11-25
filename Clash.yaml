@@ -1,0 +1,242 @@
+proxies:
+  # Shadowsocks节点
+  - name: "美国 加州 洛杉矶 纯净"
+    type: ss
+    server: 66.103.201.168
+    port: 42766
+    cipher: aes-256-gcm
+    password: "Vr8qXa4smT"
+    udp: true
+
+  - name: "美国-双ISP-洛杉矶4"
+    type: ss
+    server: 38.244.11.169
+    port: 50235
+    cipher: aes-256-gcm
+    password: "HwCnRlmUst"
+    udp: true
+
+  # Hysteria2节点
+  - name: "美国 加州 洛杉矶 纯净digitalvirt"
+    type: hysteria2
+    server: 154.40.46.33
+    port: 34444
+    password: "10193f1d-9a4d-457a-b668-bdeb240e092c"
+    sni: "apps.apple.com"
+    skip-cert-verify: true
+    udp: true
+
+  # Hysteria节点
+  - name: "美国 - 洛杉矶 - Psychz Networks - 63"
+    type: hysteria
+    server: 208.87.243.151
+    port: 38845
+    auth_str: "dongtaiwang.com"
+    alpn:
+      - h3
+    protocol: udp
+    up: 11
+    down: 55
+    sni: "www.bing.com"
+    skip-cert-verify: true
+    udp: true
+
+  # VMess节点
+  - name: "美国 加利福尼亚"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "美国 加利福尼亚 WS"
+    type: vmess
+    server: 38.244.11.169
+    port: 17416
+    uuid: "724bcd3d-b10c-4304-b015-e0eb924dc42e"
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: "/ABC"
+    udp: true
+
+  - name: "美国 加利福尼亚 乙太Vpn"
+    type: vmess
+    server: 165.140.216.142
+    port: 443
+    uuid: "b65a2d69-5634-42a2-e4be-54e8a6176900"
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  # VLESS节点 (需要Clash.Meta支持)
+  - name: "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点"
+    type: vless
+    server: 142.171.50.6
+    port: 2083
+    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
+    network: ws
+    tls: true
+    udp: true
+    servername: "ed-9rd.pages.dev"
+    ws-opts:
+      path: "/proxyip=proxyip.us.cmliussss.net"
+      headers:
+        Host: "ed-9rd.pages.dev"
+
+  - name: "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点2"
+    type: vless
+    server: 170.205.38.77
+    port: 443
+    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
+    network: ws
+    tls: true
+    udp: true
+    servername: "ed-9rd.pages.dev"
+    ws-opts:
+      path: "/proxyip=proxyip.us.cmliussss.net"
+      headers:
+        Host: "ed-9rd.pages.dev"
+
+  - name: "美国 加州 东洛杉矶 — Cloudflare CDN 节点"
+    type: vless
+    server: 104.19.253.84
+    port: 443
+    uuid: "3714f1fc-6386-49da-9824-ea16b6e38a82"
+    network: ws
+    tls: true
+    udp: true
+    servername: "loveskyvpn1-d7l.pages.dev"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "loveskyvpn1-d7l.pages.dev"
+
+  # Trojan节点
+  - name: "美国 加州 尔湾 家宽"
+    type: trojan
+    server: "vps.xiaoke1.top"
+    port: 443
+    password: "hSA6YXe15O"
+    sni: "vps.xiaoke1.top"
+    alpn:
+      - h3
+      - h2
+      - http/1.1
+    udp: true
+
+  - name: "美国 加州 圣何塞 — Cloudflare CDN 节点"
+    type: trojan
+    server: 69.84.182.86
+    port: 443
+    password: "3699"
+    network: ws
+    sni: "pp3.fg369.dynv6.net"
+    udp: true
+    ws-opts:
+      path: "/proxyip=69.84.182.86:443"
+      headers:
+        Host: "pp3.fg369.dynv6.net"
+
+  # 更多VLESS节点
+  - name: "美国 加州 圣何塞 — Cloudflare CDN 节点2"
+    type: vless
+    server: 104.16.181.220
+    port: 2096
+    uuid: "97514cec-cf70-42b1-9743-3f89122adc8e"
+    network: ws
+    tls: true
+    udp: true
+    servername: "cffq.pages.dev"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "cffq.pages.dev"
+
+  - name: "美国 纽约州 Cheektowaga — Cloudflare CDN 节点"
+    type: vless
+    server: 108.174.61.161
+    port: 59581
+    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
+    network: ws
+    tls: true
+    udp: true
+    servername: "ed-9rd.pages.dev"
+    ws-opts:
+      path: "/proxyip=108.174.61.161:59581"
+      headers:
+        Host: "ed-9rd.pages.dev"
+
+  - name: "美国 佛罗里达州 迈阿密 — Cloudflare CDN 节点"
+    type: vless
+    server: 108.174.61.161
+    port: 38712
+    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
+    network: ws
+    tls: true
+    udp: true
+    servername: "ed-9rd.pages.dev"
+    ws-opts:
+      path: "/proxyip=108.174.61.161:59581"
+      headers:
+        Host: "ed-9rd.pages.dev"
+
+  - name: "美国 纽约州 Cheektowaga — Cloudflare CDN 节点2"
+    type: vless
+    server: 172.245.205.226
+    port: 6666
+    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
+    network: ws
+    tls: true
+    udp: true
+    servername: "ed-9rd.pages.dev"
+    ws-opts:
+      path: "/proxyip=172.245.205.226:6666"
+      headers:
+        Host: "ed-9rd.pages.dev"
+
+# 代理组配置
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "美国 加州 洛杉矶 纯净"
+      - "美国 加州 洛杉矶 纯净digitalvirt"
+      - "美国-双ISP-洛杉矶4"
+      - "美国 - 洛杉矶 - Psychz Networks - 63"
+      - "美国 加利福尼亚"
+      - "美国 加利福尼亚 WS"
+      - "美国 加利福尼亚 乙太Vpn"
+      - "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点"
+      - "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点2"
+      - "美国 加州 东洛杉矶 — Cloudflare CDN 节点"
+      - "美国 加州 尔湾 家宽"
+      - "美国 加州 圣何塞 — Cloudflare CDN 节点"
+      - "美国 加州 圣何塞 — Cloudflare CDN 节点2"
+      - "美国 纽约州 Cheektowaga — Cloudflare CDN 节点"
+      - "美国 佛罗里达州 迈阿密 — Cloudflare CDN 节点"
+      - "美国 纽约州 Cheektowaga — Cloudflare CDN 节点2"
+
+  - name: "自动选择"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    proxies:
+      - "美国 加州 洛杉矶 纯净"
+      - "美国 加州 洛杉矶 纯净digitalvirt"
+      - "美国-双ISP-洛杉矶4"
+      - "美国 - 洛杉矶 - Psychz Networks - 63"
+      - "美国 加利福尼亚"
+      - "美国 加利福尼亚 WS"
+      - "美国 加利福尼亚 乙太Vpn"
+      - "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点"
+      - "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点2"
+      - "美国 加州 东洛杉矶 — Cloudflare CDN 节点"
+      - "美国 加州 尔湾 家宽"
+      - "美国 加州 圣何塞 — Cloudflare CDN 节点"
+      - "美国 加州 圣何塞 — Cloudflare CDN 节点2"
+      - "美国 纽约州 Cheektowaga — Cloudflare CDN 节点"
+      - "美国 佛罗里达州 迈阿密 — Cloudflare CDN 节点"
+      - "美国 纽约州 Cheektowaga — Cloudflare CDN 节点2"
