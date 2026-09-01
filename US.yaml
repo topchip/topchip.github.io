@@ -1,242 +1,230 @@
 proxies:
-  # Shadowsocks节点
-  - name: "美国 加州 洛杉矶 纯净"
-    type: ss
-    server: 66.103.201.168
-    port: 42766
-    cipher: aes-256-gcm
-    password: "Vr8qXa4smT"
-    udp: true
-
-  - name: "美国-双ISP-洛杉矶4"
-    type: ss
-    server: 38.244.11.169
-    port: 50235
-    cipher: aes-256-gcm
-    password: "HwCnRlmUst"
-    udp: true
-
-  # Hysteria2节点
-  - name: "美国 加州 洛杉矶 纯净digitalvirt"
-    type: hysteria2
-    server: 154.40.46.33
-    port: 34444
-    password: "10193f1d-9a4d-457a-b668-bdeb240e092c"
-    sni: "apps.apple.com"
-    skip-cert-verify: true
-    udp: true
-
-  # Hysteria节点
-  - name: "美国 - 洛杉矶 - Psychz Networks - 63"
-    type: hysteria
-    server: 208.87.243.151
-    port: 38845
-    auth_str: "dongtaiwang.com"
-    alpn:
-      - h3
-    protocol: udp
-    up: 11
-    down: 55
-    sni: "www.bing.com"
-    skip-cert-verify: true
-    udp: true
-
-  # VMess节点
-  - name: "美国 加利福尼亚"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: auto
-    udp: true
-
-  - name: "美国 加利福尼亚 WS"
-    type: vmess
-    server: 38.244.11.169
-    port: 17416
-    uuid: "724bcd3d-b10c-4304-b015-e0eb924dc42e"
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-path: "/ABC"
-    udp: true
-
-  - name: "美国 加利福尼亚 乙太Vpn"
-    type: vmess
-    server: 165.140.216.142
-    port: 443
-    uuid: "b65a2d69-5634-42a2-e4be-54e8a6176900"
-    alterId: 0
-    cipher: auto
-    udp: true
-
-  # VLESS节点 (需要Clash.Meta支持)
-  - name: "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点"
-    type: vless
-    server: 142.171.50.6
-    port: 2083
-    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
-    network: ws
-    tls: true
-    udp: true
-    servername: "ed-9rd.pages.dev"
-    ws-opts:
-      path: "/proxyip=proxyip.us.cmliussss.net"
-      headers:
-        Host: "ed-9rd.pages.dev"
-
-  - name: "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点2"
-    type: vless
-    server: 170.205.38.77
-    port: 443
-    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
-    network: ws
-    tls: true
-    udp: true
-    servername: "ed-9rd.pages.dev"
-    ws-opts:
-      path: "/proxyip=proxyip.us.cmliussss.net"
-      headers:
-        Host: "ed-9rd.pages.dev"
-
-  - name: "美国 加州 东洛杉矶 — Cloudflare CDN 节点"
-    type: vless
-    server: 104.19.253.84
-    port: 443
-    uuid: "3714f1fc-6386-49da-9824-ea16b6e38a82"
-    network: ws
-    tls: true
-    udp: true
-    servername: "loveskyvpn1-d7l.pages.dev"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "loveskyvpn1-d7l.pages.dev"
-
-  # Trojan节点
-  - name: "美国 加州 尔湾 家宽"
-    type: trojan
-    server: "vps.xiaoke1.top"
-    port: 443
-    password: "hSA6YXe15O"
-    sni: "vps.xiaoke1.top"
-    alpn:
-      - h3
-      - h2
-      - http/1.1
-    udp: true
-
-  - name: "美国 加州 圣何塞 — Cloudflare CDN 节点"
-    type: trojan
-    server: 69.84.182.86
-    port: 443
-    password: "3699"
-    network: ws
-    sni: "pp3.fg369.dynv6.net"
-    udp: true
-    ws-opts:
-      path: "/proxyip=69.84.182.86:443"
-      headers:
-        Host: "pp3.fg369.dynv6.net"
-
-  # 更多VLESS节点
-  - name: "美国 加州 圣何塞 — Cloudflare CDN 节点2"
-    type: vless
-    server: 104.16.181.220
-    port: 2096
-    uuid: "97514cec-cf70-42b1-9743-3f89122adc8e"
-    network: ws
-    tls: true
-    udp: true
-    servername: "cffq.pages.dev"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "cffq.pages.dev"
-
-  - name: "美国 纽约州 Cheektowaga — Cloudflare CDN 节点"
-    type: vless
-    server: 108.174.61.161
-    port: 59581
-    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
-    network: ws
-    tls: true
-    udp: true
-    servername: "ed-9rd.pages.dev"
-    ws-opts:
-      path: "/proxyip=108.174.61.161:59581"
-      headers:
-        Host: "ed-9rd.pages.dev"
-
-  - name: "美国 佛罗里达州 迈阿密 — Cloudflare CDN 节点"
-    type: vless
-    server: 108.174.61.161
-    port: 38712
-    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
-    network: ws
-    tls: true
-    udp: true
-    servername: "ed-9rd.pages.dev"
-    ws-opts:
-      path: "/proxyip=108.174.61.161:59581"
-      headers:
-        Host: "ed-9rd.pages.dev"
-
-  - name: "美国 纽约州 Cheektowaga — Cloudflare CDN 节点2"
-    type: vless
-    server: 172.245.205.226
-    port: 6666
-    uuid: "386a53ab-728a-4a7c-ab9f-c935d3c80d1e"
-    network: ws
-    tls: true
-    udp: true
-    servername: "ed-9rd.pages.dev"
-    ws-opts:
-      path: "/proxyip=172.245.205.226:6666"
-      headers:
-        Host: "ed-9rd.pages.dev"
-
-# 代理组配置
+- name: 洛杉矶01
+  type: vless
+  server: zfus1.ykf888.top
+  port: 57102
+  uuid: 6032ef1f-955f-4370-9658-ac152d92a1f5
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: tesla.com
+  reality-opts:
+    public-key: YPHtHRryao2CcOKyEVTdcnhhpMR9Z2qX3_V9WGtyshE
+    short-id: f3#洛杉矶01
+- name: 洛杉矶02
+  type: vless
+  server: zfus1.ykf888.top
+  port: 34041
+  uuid: 180b805b-e92d-4004-b67a-dd5053a08256
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: tesla.com
+  reality-opts:
+    public-key: G0RjQbkAfnN1shl7vAaQ-ODosoj5ShO5aLwLWGfoO3s
+    short-id: 4d79a8a1#洛杉矶02
+- name: 洛杉矶03
+  type: vless
+  server: zfus1.ykf888.top
+  port: 32562
+  uuid: 76e00204-7496-4cf8-93ea-b99ab800c072
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: tesla.com
+  reality-opts:
+    public-key: ppZ_MB1yIINGgudPfm3zdLzSwOkLKFmc7WACMIdvpm0
+    short-id: 77ba0817af7fd403#洛杉矶03
+- name: 洛杉矶04
+  type: vless
+  server: zfus2.ykf888.top
+  port: 58864
+  uuid: 3a9a50af-cb38-44c6-a4e6-fd0fed5bf7f1
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: tesla.com
+  reality-opts:
+    public-key: zL45gxRdVwvvESqgIjBJdVpJZ7ptWsVxAPCJqHR9-FE
+    short-id: 31#洛杉矶04
+- name: 洛杉矶05
+  type: vless
+  server: zfus2.ykf888.top
+  port: 59554
+  uuid: ba841a45-bdf5-4475-b38e-87b2cb2ac477
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: tesla.com
+  reality-opts:
+    public-key: 1viBnNTDCOTO9h5K80Vr7PlEZ5F_oD3-vtD-6vM5hQw
+    short-id: 42d1cb#洛杉矶05
+- name: 洛杉矶07
+  type: trojan
+  server: us2.zestapp778.com
+  port: 443
+  password: Trojan@82164024
+  network: tcp
+  tls: false
+  udp: true
+- name: 洛杉矶08
+  type: trojan
+  server: us3.zestapp778.com
+  port: 443
+  password: Trojan@82164024
+  network: tcp
+  tls: false
+  udp: true
+- name: 5rSb5p2J55-2MDk
+  type: ssr
+  server: api.meituan88.com
+  port: 18534
+  password: ZGkxNVBW/
+  method: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31796:2MmEY9
+  obfs-param: ODkyMzE3OTYuZG91eWluLmNvbQ
+  udp: true
+- name: 5rSb5p2J55-2MTA
+  type: ssr
+  server: api.meituan88.com
+  port: 44883
+  password: ZGkxNVBW/
+  method: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31796:2MmEY9
+  obfs-param: ODkyMzE3OTYuZG91eWluLmNvbQ
+  udp: true
+- name: 洛杉矶11
+  type: ss
+  server: videocache-cn-asia-east.73edge.net
+  port: 16106
+  password: MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TldJM09UZGpabUV6TW1SbFpHTXpZemM0TkdReE0yRmtOV0ZqTVdFNVltRT06WkdZMFltUmlZVEV0T1RVMVlpMDBaak5pTFRsbE9EZ3ROek15WXpSak1qZz0
+  method: chacha20-ietf-poly1305
+  udp: true
+- name: 洛杉矶12
+  type: ss
+  server: videocache-cn-asia-east.73edge.org
+  port: 16105
+  password: MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TldJM09UZGpabUV6TW1SbFpHTXpZemM0TkdReE0yRmtOV0ZqTVdFNVltRT06WkdZMFltUmlZVEV0T1RVMVlpMDBaak5pTFRsbE9EZ3ROek15WXpSak1qZz0
+  method: chacha20-ietf-poly1305
+  udp: true
+- name: 洛杉矶13
+  type: ss
+  server: videocache-cn-asia-east.73edge.org
+  port: 16148
+  password: MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TldJM09UZGpabUV6TW1SbFpHTXpZemM0TkdReE0yRmtOV0ZqTVdFNVltRT06WkdZMFltUmlZVEV0T1RVMVlpMDBaak5pTFRsbE9EZ3ROek15WXpSak1qZz0
+  method: chacha20-ietf-poly1305
+  udp: true
+- name: 5rSb5p2J55-2MTQ
+  type: ssr
+  server: api.meituan88.com
+  port: 42337
+  password: ZGkxNVBW/
+  method: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 31796:2MmEY9
+  obfs-param: ODkyMzE3OTYuZG91eWluLmNvbQ
+  udp: true
+- name: 5rSb5p2J55-2MTU
+  type: ssr
+  server: api.meituan88.com
+  port: 27561
+  password: ZGkxNVBW/
+  method: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 31796:2MmEY9
+  obfs-param: ODkyMzE3OTYuZG91eWluLmNvbQ
+  udp: true
+- name: 5rSb5p2J55-2MTY
+  type: ssr
+  server: api.meituan88.com
+  port: 27726
+  password: ZGkxNVBW/
+  method: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 31796:2MmEY9
+  obfs-param: ODkyMzE3OTYuZG91eWluLmNvbQ
+  udp: true
+- name: 5rSb5p2J55-2MTc
+  type: ssr
+  server: api.meituan88.com
+  port: 39266
+  password: ZGkxNVBW/
+  method: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 31796:2MmEY9
+  obfs-param: ODkyMzE3OTYuZG91eWluLmNvbQ
+  udp: true
+- name: 5rSb5p2J55-2MTg
+  type: ssr
+  server: api.meituan88.com
+  port: 29790
+  password: ZGkxNVBW/
+  method: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31796:2MmEY9
+  obfs-param: ODkyMzE3OTYuZG91eWluLmNvbQ
+  udp: true
 proxy-groups:
-  - name: "PROXY"
-    type: select
-    proxies:
-      - "美国 加州 洛杉矶 纯净"
-      - "美国 加州 洛杉矶 纯净digitalvirt"
-      - "美国-双ISP-洛杉矶4"
-      - "美国 - 洛杉矶 - Psychz Networks - 63"
-      - "美国 加利福尼亚"
-      - "美国 加利福尼亚 WS"
-      - "美国 加利福尼亚 乙太Vpn"
-      - "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点"
-      - "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点2"
-      - "美国 加州 东洛杉矶 — Cloudflare CDN 节点"
-      - "美国 加州 尔湾 家宽"
-      - "美国 加州 圣何塞 — Cloudflare CDN 节点"
-      - "美国 加州 圣何塞 — Cloudflare CDN 节点2"
-      - "美国 纽约州 Cheektowaga — Cloudflare CDN 节点"
-      - "美国 佛罗里达州 迈阿密 — Cloudflare CDN 节点"
-      - "美国 纽约州 Cheektowaga — Cloudflare CDN 节点2"
-
-  - name: "自动选择"
-    type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-    proxies:
-      - "美国 加州 洛杉矶 纯净"
-      - "美国 加州 洛杉矶 纯净digitalvirt"
-      - "美国-双ISP-洛杉矶4"
-      - "美国 - 洛杉矶 - Psychz Networks - 63"
-      - "美国 加利福尼亚"
-      - "美国 加利福尼亚 WS"
-      - "美国 加利福尼亚 乙太Vpn"
-      - "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点"
-      - "美国 加州 东洛杉矶 纯净— Cloudflare CDN 节点2"
-      - "美国 加州 东洛杉矶 — Cloudflare CDN 节点"
-      - "美国 加州 尔湾 家宽"
-      - "美国 加州 圣何塞 — Cloudflare CDN 节点"
-      - "美国 加州 圣何塞 — Cloudflare CDN 节点2"
-      - "美国 纽约州 Cheektowaga — Cloudflare CDN 节点"
-      - "美国 佛罗里达州 迈阿密 — Cloudflare CDN 节点"
-      - "美国 纽约州 Cheektowaga — Cloudflare CDN 节点2"
+- name: PROXY
+  type: select
+  proxies:
+  - 洛杉矶01
+  - 洛杉矶02
+  - 洛杉矶03
+  - 洛杉矶04
+  - 洛杉矶05
+  - 洛杉矶07
+  - 洛杉矶08
+  - 5rSb5p2J55-2MDk
+  - 5rSb5p2J55-2MTA
+  - 洛杉矶11
+  - 洛杉矶12
+  - 洛杉矶13
+  - 5rSb5p2J55-2MTQ
+  - 5rSb5p2J55-2MTU
+  - 5rSb5p2J55-2MTY
+  - 5rSb5p2J55-2MTc
+  - 5rSb5p2J55-2MTg
+  - DIRECT
+- name: Auto  type: url-test  proxies:
+  - 洛杉矶01
+  - 洛杉矶02
+  - 洛杉矶03
+  - 洛杉矶04
+  - 洛杉矶05
+  - 洛杉矶07
+  - 洛杉矶08
+  - 5rSb5p2J55-2MDk
+  - 5rSb5p2J55-2MTA
+  - 洛杉矶11
+  - 洛杉矶12
+  - 洛杉矶13
+  - 5rSb5p2J55-2MTQ
+  - 5rSb5p2J55-2MTU
+  - 5rSb5p2J55-2MTY
+  - 5rSb5p2J55-2MTc
+  - 5rSb5p2J55-2MTg
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
